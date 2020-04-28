@@ -14,8 +14,8 @@ def get_length() -> int:
 	except ValueError:
 		print("{} is not a number, please try again.".format(length))
 		get_length()
-	except Exception as kfc:
-		print(kfc)
+	except Exception as e:
+		print(e)
 		get_length()
 	except:
 		print("{} is not a valid input".format(length))
